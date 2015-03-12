@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto-Close\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 23:13-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ajay D'Souza <me@ajaydsouza.com>\n"
+"Language-Team:  <me@ajaydsouza.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.inc.php:79 admin.inc.php:107
+msgid "Options saved successfully."
+msgstr "Opcije sašuvane uspešno."
+
+#: admin.inc.php:85
+msgid "Comments on posts closed upto"
+msgstr "Komentari na postovima zatvoreni do"
+
+#: admin.inc.php:90
+msgid "Pingbacks/Trackbacks on posts closed upto"
+msgstr "Pingbacks/Trackbacks na postovima zatvoreni do"
+
+#: admin.inc.php:95
+msgid "Comments on pages closed upto"
+msgstr "Komentari na stranicama zatvoreni do"
+
+#: admin.inc.php:100
+msgid "Pingbacks/Trackbacks on pages closed upto"
+msgstr "Pingbacks/Trackbacks na stranicama zatvorene do"
+
+#: admin.inc.php:105
+msgid "Post revisions deleted"
+msgstr "Revizija posta obrisana"
+
+#: admin.inc.php:128
+msgid "Options set to Default."
+msgstr "Opcije podesiti na Default."
+
+#: admin.inc.php:139
+msgid "Comments opened on all posts"
+msgstr "Komentari otvoren na svim postovima"
+
+#: admin.inc.php:150
+msgid "Pingbacks/Trackbacks opened on all posts"
+msgstr "Pingbacks/Trackbacks otvoreni na svim postovima"
+
+#: admin.inc.php:166
+#, fuzzy
+msgid "Auto-Close Comments, Pingbacks and Trackbacks"
+msgstr "Zatvoriti Pingbacks/Trackbacks:"
+
+#: admin.inc.php:172
+msgid "Information"
+msgstr "Informacije"
+
+#: admin.inc.php:178
+msgid "Schedule:"
+msgstr "Raspored:"
+
+#: admin.inc.php:180
+msgid "Comments closed upto:"
+msgstr "Komentari zatvoreni do::"
+
+#: admin.inc.php:184
+msgid "Pingbacks/Trackbacks closed upto:"
+msgstr "Pingbacks/Trackbacks zatvoreni do:"
+
+#: admin.inc.php:188
+msgid "Comments on the following posts will not be closed:"
+msgstr "Komentari  na sledećim postovima neće biti zatvoreni:"
+
+#: admin.inc.php:192
+msgid "Pingbacks on the following posts will not be closed:"
+msgstr "Pingbacks na sledećim postovima neće biti zatvoreni:"
+
+#: admin.inc.php:195
+msgid "Next Run:"
+msgstr "Sledeće pokretanje:"
+
+#: admin.inc.php:197
+msgid ""
+"Comments are not being closed automatically. You can change that by setting "
+"the option below."
+msgstr ""
+"Komentari se ne zatvaraju automatski. Možete promeniti tu postavku sa "
+"opcijom ispod"
+
+#: admin.inc.php:205
+msgid "Options"
+msgstr "Opcije"
+
+#: admin.inc.php:208
+#, fuzzy
+msgid "Close Comments?"
+msgstr "Zatvoriti komentare na:"
+
+#: admin.inc.php:213
+msgid "Close Comments on:"
+msgstr "Zatvoriti komentare na:"
+
+#: admin.inc.php:226
+msgid "Close Comments on posts/pages older than:"
+msgstr "Zatvorite komentare na postovima/stranicama starijim od:"
+
+#: admin.inc.php:228 admin.inc.php:261
+msgid "days"
+msgstr "dani"
+
+#: admin.inc.php:229 admin.inc.php:262
+msgid ""
+"This option is only effective if either of the above options are checked"
+msgstr "Ova opcija je efektivna samo ako je neka od opcija iznad čekirana"
+
+#: admin.inc.php:232
+msgid "Keep comments on these posts/pages open:"
+msgstr "Neka komentari na ovim postovima/stranicama: budu otvoreni:"
+
+#: admin.inc.php:235 admin.inc.php:268
+msgid "Comma separated list of post IDs"
+msgstr "Zarezom separatisana lista ID postova"
+
+#: admin.inc.php:241
+#, fuzzy
+msgid "Close Pingbacks/Trackbacks?"
+msgstr "Zatvoriti Pingbacks/Trackbacks:"
+
+#: admin.inc.php:246
+#, fuzzy
+msgid "Close Pingbacks/Trackbacks on:"
+msgstr "Zatvoriti Pingbacks/Trackbacks:"
+
+#: admin.inc.php:259
+msgid "Close Pingbacks/Trackbacks on posts/pages older than:"
+msgstr "Zatvoriti Pingbacks/Trackbacks na postovima/stranicama starijim od:"
+
+#: admin.inc.php:265
+msgid "Keep Pingbacks/Trackbacks on these posts/pages open:"
+msgstr "Ostavi Pingbacks/Trackbacks otvorene na ovim postovima/stranicama:"
+
+#: admin.inc.php:274
+msgid "Run Daily?"
+msgstr "Pokretati dnevno?"
+
+#: admin.inc.php:277
+msgid ""
+"This will create a daily cron job. Comments and/or pingbacks/trackbacks will "
+"be closed at this time specified. The options above will be used when "
+"running the job."
+msgstr ""
+"Ovo će stvoriti dnevnu cron posao. Komentari i / ili Pingbacks / Trackbacks "
+"će biti zatvoreni u ovom određenom trenutku. Ova opcija iznad će se "
+"koristiti prilikom pokretanja posla ."
+
+#: admin.inc.php:280
+msgid "Run at:"
+msgstr "Pokrenuti na :"
+
+#: admin.inc.php:283
+msgid ""
+"Enter in 24-hour format. e.g. to run at 1:30pm, enter 13 and 30 respectively"
+msgstr ""
+"Uneti u 24-sata format. npr. da bist epokrenuli  1:30pm, unesite 13 i 30 "
+
+#: admin.inc.php:286
+msgid "Delete Post Revisions?"
+msgstr "Obrisati revizije posta?"
+
+#: admin.inc.php:289
+msgid ""
+"The WordPress revisions system stores a record of each saved draft or "
+"published update. This can gather up a lot of overhead in the long run. Use "
+"this option to delete old post revisions."
+msgstr ""
+"Sistem WordPress revizije čuva evidenciju o svakom sačuvanom nacrtu ili "
+"objavljenom ažuriranju . Ovo može da pokupi dosta informacija na duge staze. "
+"Koristite ovu opciju da biste izbrisali stare revizije posta."
+
+#: admin.inc.php:297
+msgid "Save Options and Run Once"
+msgstr " Sačuvati opcije i pokrenuti jednom"
+
+#: admin.inc.php:298
+msgid "Save Options"
+msgstr "Sačuvati opcije"
+
+#: admin.inc.php:299
+msgid "Default Options"
+msgstr "Degfault opcije"
+
+#: admin.inc.php:300
+msgid "Open Comments"
+msgstr "Otvori Komentare"
+
+#: admin.inc.php:301
+msgid "Open Pings"
+msgstr "Otvori Pings"
+
+#: admin.inc.php:309
+msgid "Support the development"
+msgstr "Podrška za razvoj"
+
+#: admin.inc.php:318
+msgid "Enter amount in USD:"
+msgstr "Uneti iznos u USD:"
+
+#: admin.inc.php:322
+msgid "Send your donation to the author of"
+msgstr "Pošaljite vašu donaciju autoru"
+
+#: admin.inc.php:329
+msgid "Follow me"
+msgstr "Pratite me"
+
+#: admin.inc.php:339
+msgid "Quick links"
+msgstr "Brzi linkovi"
+
+#: admin.inc.php:343
+msgid "Auto-Close plugin page"
+msgstr "Zatvori automatski stranica plugina "
+
+#: admin.inc.php:344
+msgid "Other plugins"
+msgstr "Ostali pluginovi"
+
+#: admin.inc.php:345
+msgid "Ajay's blog"
+msgstr "Ajay's blog"
+
+#: admin.inc.php:346
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin.inc.php:347 ald-autoclose.php:287
+msgid "Support"
+msgstr "Podrška"
+
+#: admin.inc.php:348
+msgid "Reviews"
+msgstr "Pregledi"
+
+#: admin.inc.php:371
+msgid "Auto-Close"
+msgstr "Zatvori automatski"
+
+#: ald-autoclose.php:267
+msgid "Settings"
+msgstr "Postavke"
+
+#: ald-autoclose.php:288
+msgid "Donate"
+msgstr "Donirajte"
+
+#~ msgid "posts"
+#~ msgstr "postovi"
+
+#~ msgid "pages"
+#~ msgstr "stranice"

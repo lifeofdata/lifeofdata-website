@@ -1,0 +1,7 @@
+How to make your own template for the shortcode of Explanatory Dictionary in a few steps.
+
+Step 1:
+Copy 'explanatory-dictionary.php' from 'public/views' to your active theme directory
+
+Step 2:
+Edit the layout how you like it with the classes you would like to use

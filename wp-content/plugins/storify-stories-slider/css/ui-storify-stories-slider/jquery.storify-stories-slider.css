@@ -1,0 +1,423 @@
+.jcarousel-skin-default .jcarousel {
+	position: relative;
+	overflow: hidden;
+}
+.jcarousel-skin-default .jcarousel p {
+	text-align: center;
+	margin: 0;
+}
+.jcarouse-skin-default .jcarousel ul li {
+	overflow: hidden;
+}
+
+/* horizontal */
+.jcarousel-skin-default .jcarousel-horizontal ul {
+	width: 20000px;
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.jcarousel-skin-default .jcarousel-horizontal li {
+	float: left;
+}
+*[dir=rtl] .jcarousel-skin-default .jcarousel-horizontal li {
+	float: right;
+}
+
+/* horizontal prev/next buttons */
+.jcarousel-skin-default .jcarousel-storify-next-h, .jcarousel-skin-default .jcarousel-storify-prev-h {
+	height: 100%;
+	width: 32px;
+	cursor: pointer;
+	display: block;
+	background-repeat: no-repeat;
+}
+.jcarousel-skin-default .jcarousel-storify-next-h {
+	background-image: url(images/next-horizontal.png);
+	background-position: center left;
+	float: right;
+}
+.jcarousel-skin-default .jcarousel-storify-prev-h {
+	background-image: url(images/prev-horizontal.png);
+	background-position: center left;
+	float: left;
+}
+.jcarousel-skin-default .jcarousel-storify-prev-h:hover, .jcarousel-skin-default .jcarousel-storify-next-h:hover {
+	background-position: -32px center;
+}
+.jcarousel-skin-default .jcarousel-storify-prev-h:active, .jcarousel-skin-default .jcarousel-storify-next-h:active {
+	background-position: -64px center;
+}
+.jcarousel-storify-prev-h.jcarousel-storify-arrow-disabled, .jcarousel-storify-next-h.jcarousel-storify-arrow-disabled, .jcarousel-storify-prev-h.jcarousel-storify-arrow-disabled:hover, .jcarousel-storify-next-h.jcarousel-storify-arrow-disabled:hover, .jcarousel-storify-prev-h.jcarousel-storify-arrow-disabled:active, .jcarousel-storify-next-h.jcarousel-storify-arrow-disabled:active {
+	background-position: -96px center;
+	cursor: default;
+}
+
+/* vertical */
+.jcarousel-skin-default .jcarousel-vertical ul {
+	height: 20000px;
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.jcarousel-skin-default .jcarousel-vertical li {
+	float: left;
+}
+.jcarousel-skin-default li img {
+	border: 0;
+}
+
+/* vertical prev/next buttons */
+.jcarousel-skin-default .jcarousel-storify-next-v, .jcarousel-skin-default .jcarousel-storify-prev-v {
+	height: 32px;
+	width: 100%;
+	cursor: pointer;
+	display: block;
+	background-repeat: no-repeat;
+}
+.jcarousel-skin-default .jcarousel-storify-next-v {
+	float: right;
+	background-image: url(images/next-vertical.png);
+	background-position: center top;
+}
+.jcarousel-skin-default .jcarousel-storify-prev-v {
+	float: left;
+	background-image: url(images/prev-vertical.png);
+	background-position: center top;
+}
+.jcarousel-skin-default .jcarousel-storify-prev-v:hover, .jcarousel-skin-default .jcarousel-storify-next-v:hover {
+	background-position: center -32px;
+}
+.jcarousel-skin-default .jcarousel-storify-prev-v:active, .jcarousel-skin-default .jcarousel-storify-next-v:active {
+	background-position: center -64px;
+}
+.jcarousel-storify-prev-v.jcarousel-storify-arrow-disabled, .jcarousel-storify-next-v.jcarousel-storify-arrow-disabled, .jcarousel-storify-prev-v.jcarousel-storify-arrow-disabled:hover, .jcarousel-storify-next-v.jcarousel-storify-arrow-disabled:hover, .jcarousel-storify-prev-v.jcarousel-storify-arrow-disabled:active, .jcarousel-storify-next-v.jcarousel-storify-arrow-disabled:active {
+	background-position: center -96px;
+	cursor: default;
+}
+
+/* ajax loader */
+.jcarousel-storify-ajax {
+	background-image: url(images/ajax-loader.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: default;
+}
+
+/* storify style */
+.story-tile {
+	width: inherit;
+	height: inherit;
+	/*margin: 10px;*/
+}
+.story-tile .icon {
+	width: 16px;
+	height: 16px;
+	background: url("images/web.png") no-repeat;
+}
+.story-tile .s-element-stat .icon {
+	float: left;
+	margin-right: 4px;
+}
+.story-tile .story-toolbar {
+	padding: 0 2px 3px;
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+.story-tile-editable .story-toolbar {
+	display: block;
+}
+.story-tile-body {
+	display: block;
+	padding: 3px;
+	background: #fff;
+	border: 1px solid #ddd;
+	height: 75%;
+}
+.story-tile-body span {
+	display: block;
+}
+.story-tile-body:hover {
+	border-color: #bbb;
+}
+.story-tile-text {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.story-tile-thumbnail {
+	height: 100%;
+	width: inherit;
+	position: relative;
+	margin: 3px;
+	/*height: 120px;*/
+	/*height: auto;*/
+	overflow: hidden;
+}
+.story-tile-title {
+	display: block;
+	position: relative;
+	padding: 10px;
+	color: #ddd;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	height: auto;
+	line-height: 19px;
+	letter-spacing: 0px;
+}
+.story-tile-title .story-tile-overlay {
+	opacity: 0.75;
+	z-index: -1;
+}
+.story-tile-title .story-tile-title-text {
+	font: 16px/1.2em "Georgia", serif;
+	font-weight: normal;
+	color: #fff;
+	text-shadow: none;
+	text-transform: none;
+}
+.text-only .story-tile-title {
+	width: 100%;
+}
+.text-only .story-tile-title .story-tile-overlay {
+	opacity: 1;
+}
+.story-tile-body:hover .story-tile-overlay {
+	opacity: 0.75;
+}
+.story-tile-body:hover .story-tile-title {
+	color: #fff;
+	padding-bottom: 5px;
+}
+.story-tile-body:hover .story-tile-title .story-tile-overlay {
+	opacity: 0;
+}
+.story-tile.text-only .story-tile-body:hover .story-tile-overlay {
+	opacity: 1;
+}
+.story-tile.text-only .story-tile-body:hover .story-tile-title {
+	padding-bottom: 10px;
+}
+.story-tile-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #000;
+	opacity: 0;
+}
+.pattern {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url("images/pattern.png");
+}
+.story-tile-thumbnail-image {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	padding: 1px;
+}
+.story-tile-thumbnail-image .featured {
+	width: 20%;
+	float: left;
+}
+.story-thumbnail-cover {
+	width: 100%;
+	height: 100%;
+}
+.story-tile-caption {
+	height: 16px;
+	padding: 3px 3px 0px 0px;
+	overflow: hidden;
+}
+.story-tile-below {
+	height: 36px;
+	padding: 7px 0px 0px 7px;
+}
+.story-tile-author {
+	display: block;
+	margin-top: 2px;
+	line-height: 16px;
+	height: 16px;
+	width: auto;
+	font-family: Georgia;
+	font-size: 13px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: normal;
+	text-transform: none;
+}
+.story-tile-author a {
+	color: #256bbe;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-variant: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+}
+.story-tile-date, .story-tile-views, .story-tile-likes {
+	text-transform: none;
+	display: block;
+	float: left;
+	font-family: 'Lucida Grande', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	height: 16px;
+	line-height: normal;
+	letter-spacing: 0px;
+}
+.story-tile-views i, .story-tile-likes i, .story-tile-comments i {
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url("images/web.png");
+	margin-left: 8px;
+}
+.story-tile-views strong, .story-tile-likes strong, .story-tile-comments strong {
+	display: block;
+	float: left;
+	height: 16px;
+}
+.story-tile-views i {
+	background-position: -48px 0;
+	margin-right: 3px;
+}
+.story-tile-likes i {
+	background-position: -128px -32px;
+	margin-right: 1px;
+}
+.story-tile-comments i {
+	background-position: -176px -32px;
+	margin-right: 1px;
+}
+.story-tile-description {
+	opacity: 0;
+	overflow: hidden;
+	height: 155px;
+	margin: 0;
+	padding: 0 10px 10px;
+	text-shadow: none;
+	color: #ddd;
+	text-transform: none;
+	font-family: 'Lucida Grande', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.3em;
+	letter-spacing: 0px;
+}
+.story-tile.text-only .story-tile-description {
+	opacity: 1;
+	background: #000;
+}
+.story-tile-body:hover .story-tile-title {
+	background: none;
+}
+.story-tile-body:hover .story-tile-description {
+	color: #ddd;
+	opacity: 1;
+}
+.story-tile-info.thumb {
+	margin-left: 42px;
+}
+.story-tile-headline {
+	font: 16px Georgia, serif;
+	display: block;
+	margin: 0px 0px 2px;
+	color: #333;
+	text-shadow: 0px -1px 0px #fff;
+}
+.story-tile-headline:hover {
+	text-decoration: none;
+}
+.story-tile-avatar {
+	margin: 0;
+	display: inline-block;
+	float: left;
+}
+.story-tile-avatar img {
+	display: block;
+	min-width: 32px;
+	min-height: 32px;
+	max-width: 32px;
+	max-height: 32px;
+	background: #fff;
+	padding: 1px;
+	border: 1px solid #ddd;
+}
+.story-tile-data {
+	color: #999;
+}
+.story-tile-data .icon {
+	float: left;
+	margin-right: 3px;
+}
+.story-tile-more {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	padding: 4px 6px;
+	color: #888;
+	border: 1px solid #ddd;
+	background: #f4f4f4;
+	box-shadow: inset 0px 1px 0px #fff;
+}
+.story-tile-simple {
+	margin: 10px 0;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background: #f7f7f7;
+	box-shadow: 0 1px 0 #ddd;
+}
+.story-tile-simple:hover {
+	border-color: #bbb;
+	background: #fff;
+}
+.story-tile-simple .story-tile-simple-thumbnail {
+	padding: 1px;
+	background: #fff;
+	border: 1px solid #ddd;
+	float: left;
+}
+.story-tile-simple .story-tile-simple-thumbnail .story-tile-simple-thumbnail-image {
+	display: block;
+	width: 48px;
+	height: 48px;
+	background-size: cover;
+}
+.story-tile-simple .story-tile-simple-info {
+	padding-left: 62px;
+}
+.story-tile-simple .story-tile-simple-info .story-tile-simple-title {
+	display: block;
+	font-family: "Georgia", serif;
+	font-size: 14px;
+	padding: 0 0 3px;
+}
+.story-tile-simple .story-tile-simple-info .story-tile-simple-author {
+	color: #256bbe;
+	font-size: 11px;
+}
+.story-tile-simple .story-tile-simple-info .story-tile-simple-date {
+	color: #999;
+	text-decoration: none;
+}

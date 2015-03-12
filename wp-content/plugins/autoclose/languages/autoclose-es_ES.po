@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto-Close\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 23:13-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ajay D'Souza <me@ajaydsouza.com>\n"
+"Language-Team:  <me@ajaydsouza.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.inc.php:79 admin.inc.php:107
+msgid "Options saved successfully."
+msgstr "Opciones guardadas correctamente."
+
+#: admin.inc.php:85
+msgid "Comments on posts closed upto"
+msgstr "Comentarios sobre publicaciones cerrados hasta"
+
+#: admin.inc.php:90
+msgid "Pingbacks/Trackbacks on posts closed upto"
+msgstr "Pingbacks / Trackbacks sobre las publicaciones cerrados hasta"
+
+#: admin.inc.php:95
+msgid "Comments on pages closed upto"
+msgstr "Comentarios en las páginas cerrados hasta"
+
+#: admin.inc.php:100
+msgid "Pingbacks/Trackbacks on pages closed upto"
+msgstr "Pingbacks / Trackbacks en las páginas cerrados hasta"
+
+#: admin.inc.php:105
+msgid "Post revisions deleted"
+msgstr "Revisiones de publicaciones eliminadas"
+
+#: admin.inc.php:128
+msgid "Options set to Default."
+msgstr "Opciones establecidas como predeterminadas."
+
+#: admin.inc.php:139
+msgid "Comments opened on all posts"
+msgstr "Comentarios abiertos en todas las publicaciones"
+
+#: admin.inc.php:150
+msgid "Pingbacks/Trackbacks opened on all posts"
+msgstr "Pingbacks / Trackbacks abiertos en todas las publicaciones"
+
+#: admin.inc.php:166
+#, fuzzy
+msgid "Auto-Close Comments, Pingbacks and Trackbacks"
+msgstr "Cerrar Pingbacks / Trackbacks:"
+
+#: admin.inc.php:172
+msgid "Information"
+msgstr "Información"
+
+#: admin.inc.php:178
+msgid "Schedule:"
+msgstr "Planificar:"
+
+#: admin.inc.php:180
+msgid "Comments closed upto:"
+msgstr "Comentarios cerrados hasta:"
+
+#: admin.inc.php:184
+msgid "Pingbacks/Trackbacks closed upto:"
+msgstr "Pingbacks / Trackbacks cerrados hasta:"
+
+#: admin.inc.php:188
+msgid "Comments on the following posts will not be closed:"
+msgstr "Comentarios sobre las siguientes publicaciones no se cerrarán:"
+
+#: admin.inc.php:192
+msgid "Pingbacks on the following posts will not be closed:"
+msgstr "Pingbacks en las siguientes publicaciones no se cerrarán:"
+
+#: admin.inc.php:195
+msgid "Next Run:"
+msgstr "Siguiente ejecución:"
+
+#: admin.inc.php:197
+msgid ""
+"Comments are not being closed automatically. You can change that by setting "
+"the option below."
+msgstr ""
+"Los comentarios no se están cerrando automáticamente. Usted puede cambiar "
+"esto mediante el establecimiento de la opción a continuación."
+
+#: admin.inc.php:205
+msgid "Options"
+msgstr "Opciones"
+
+#: admin.inc.php:208
+#, fuzzy
+msgid "Close Comments?"
+msgstr "Cerrar Comentarios en:"
+
+#: admin.inc.php:213
+msgid "Close Comments on:"
+msgstr "Cerrar Comentarios en:"
+
+#: admin.inc.php:226
+msgid "Close Comments on posts/pages older than:"
+msgstr "Cerrar Comentarios sobre publicaciones / páginas más antiguos de:"
+
+#: admin.inc.php:228 admin.inc.php:261
+msgid "days"
+msgstr "días"
+
+#: admin.inc.php:229 admin.inc.php:262
+msgid ""
+"This option is only effective if either of the above options are checked"
+msgstr ""
+"Esta opción es eficaz sólo si ninguna de las opciones anteriores se marcan"
+
+#: admin.inc.php:232
+msgid "Keep comments on these posts/pages open:"
+msgstr "Mantenga comentarios sobre estas publicaciones / páginas abiertas:"
+
+#: admin.inc.php:235 admin.inc.php:268
+msgid "Comma separated list of post IDs"
+msgstr "Lista de IDs de publicaciones separada por comas"
+
+#: admin.inc.php:241
+#, fuzzy
+msgid "Close Pingbacks/Trackbacks?"
+msgstr "Cerrar Pingbacks / Trackbacks:"
+
+#: admin.inc.php:246
+#, fuzzy
+msgid "Close Pingbacks/Trackbacks on:"
+msgstr "Cerrar Pingbacks / Trackbacks:"
+
+#: admin.inc.php:259
+msgid "Close Pingbacks/Trackbacks on posts/pages older than:"
+msgstr "Cerrar Pingbacks / Trackbacks / páginas en publicaciones anteriores a:"
+
+#: admin.inc.php:265
+msgid "Keep Pingbacks/Trackbacks on these posts/pages open:"
+msgstr "Mantener Pingbacks / Trackbacks sobre estas publicaciones / páginas"
+
+#: admin.inc.php:274
+msgid "Run Daily?"
+msgstr "¿Ejecutar a diario?"
+
+#: admin.inc.php:277
+msgid ""
+"This will create a daily cron job. Comments and/or pingbacks/trackbacks will "
+"be closed at this time specified. The options above will be used when "
+"running the job."
+msgstr ""
+"Esto creará una tarea de cron diaria. Comentarios y / o Pingbacks / "
+"Trackbacks serán cerrados en este momento especificado. Las opciones "
+"anteriores se utilizarán cuando se ejecuta la tarea."
+
+#: admin.inc.php:280
+msgid "Run at:"
+msgstr "Ejecutar en:"
+
+#: admin.inc.php:283
+msgid ""
+"Enter in 24-hour format. e.g. to run at 1:30pm, enter 13 and 30 respectively"
+msgstr ""
+"Introduzca en formato de 24 horas. por ejemplo, para funcionar a las 1:30 "
+"pm, ingrese 13 y 30 respectivamente"
+
+#: admin.inc.php:286
+msgid "Delete Post Revisions?"
+msgstr "¿Eliminar revisiones de publicaciones?"
+
+#: admin.inc.php:289
+msgid ""
+"The WordPress revisions system stores a record of each saved draft or "
+"published update. This can gather up a lot of overhead in the long run. Use "
+"this option to delete old post revisions."
+msgstr ""
+"El sistema de revisión de WordPress almacena un registro de cada proyecto "
+"guardado o actualización publicada. Esto puede reunir una gran sobrecarga en "
+"el largo plazo. Utilice esta opción para eliminar revisiones viejas."
+
+#: admin.inc.php:297
+msgid "Save Options and Run Once"
+msgstr "Opciones de guardado y Ejecutar Una Vez"
+
+#: admin.inc.php:298
+msgid "Save Options"
+msgstr "Opciones de guardado"
+
+#: admin.inc.php:299
+msgid "Default Options"
+msgstr "Opciones predeterminadas"
+
+#: admin.inc.php:300
+msgid "Open Comments"
+msgstr "Comentarios Abiertos"
+
+#: admin.inc.php:301
+msgid "Open Pings"
+msgstr "Pings Abiertos"
+
+#: admin.inc.php:309
+msgid "Support the development"
+msgstr "Apoyar el desarrollo"
+
+#: admin.inc.php:318
+msgid "Enter amount in USD:"
+msgstr "Ingrese el monto en USD:"
+
+#: admin.inc.php:322
+msgid "Send your donation to the author of"
+msgstr "Envíe su donación al autor de"
+
+#: admin.inc.php:329
+msgid "Follow me"
+msgstr "Sígueme"
+
+#: admin.inc.php:339
+msgid "Quick links"
+msgstr "Enlaces rápidos"
+
+#: admin.inc.php:343
+msgid "Auto-Close plugin page"
+msgstr "Auto-Cerrar la página del plugin"
+
+#: admin.inc.php:344
+msgid "Other plugins"
+msgstr "Otros plugins"
+
+#: admin.inc.php:345
+msgid "Ajay's blog"
+msgstr "Blog de Ajay"
+
+#: admin.inc.php:346
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin.inc.php:347 ald-autoclose.php:287
+msgid "Support"
+msgstr "Soporte"
+
+#: admin.inc.php:348
+msgid "Reviews"
+msgstr "Reseñas"
+
+#: admin.inc.php:371
+msgid "Auto-Close"
+msgstr "Auto-Cerrar"
+
+#: ald-autoclose.php:267
+msgid "Settings"
+msgstr "Configuración"
+
+#: ald-autoclose.php:288
+msgid "Donate"
+msgstr "Donar"
+
+#~ msgid "posts"
+#~ msgstr "Publicaciones"
+
+#~ msgid "pages"
+#~ msgstr "páginas"
